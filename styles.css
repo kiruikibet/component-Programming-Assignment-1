@@ -6,16 +6,23 @@ body {
 
 header {
   background: #0077b6;
-  color: white;
-  padding: 15px;
+  color: aqua;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
+  font-size: 2rem;
 }
-
 nav a {
-  color: white;
+  color: rgb(228, 175, 30);
   margin-left: 15px;
   text-decoration: none;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+nav a:hover{
+    color: rgb(22, 240, 15);
+    text-decoration: underline;
+    font-size: 2.2rem;
 }
 
 .hotel-list {
@@ -26,13 +33,20 @@ nav a {
 }
 
 .hotel {
-  background: white;
+  background: rgb(228, 200, 200);
   padding: 10px;
   border-radius: 8px;
   text-align: center;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 1.5rem;
 }
-
+.hotel a:hover{
+    color:rgb(211, 105, 19);
+    font-size: 2rem;;
+}
+h2{
+    color: rgb(0, 162, 255);
+}
 .hotel img {
   width: 100%;
   border-radius: 8px;
@@ -41,10 +55,12 @@ nav a {
 .hotel-details {
   padding: 20px;
   text-align: center;
+  font-size: 3rem;
+  color: green;
 }
 
 .hotel-details img {
-  width: 400px;
+  width: 500px;
   border-radius: 8px;
 }
 
@@ -56,4 +72,11 @@ nav a {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 1.5rem;
+}
+.book-btn:hover{
+    text-decoration: underline;
+    background-color: chartreuse;
+    color: black;
+    font-weight: bolder;
 }
